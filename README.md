@@ -13,12 +13,12 @@ There is NO WARRANTY, to the extent permitted by law. "</font>
 
 #### Options Available :
 
-`-v    --version`       Display Version Information of Command
-`-h    --help`          Display this HELP message.
-`-a    --add`           Add Files to the Trash
-`-s    --show`          Show all the files and folders, currently in trash.
-`      --restore`       Restore some files from the Trash.
-`      --restore-all`   Restore ALL the files and folders currently in trash.
+`-v    --version`       Display Version Information of Command<br>
+`-h    --help`          Display this HELP message.<br>
+`-a    --add`           Add Files to the Trash<br>
+`-s    --show`          Show all the files and folders, currently in trash.<br>
+`      --restore`       Restore some files from the Trash.<br>
+`      --restore-all`   Restore ALL the files and folders currently in trash.<br>
 
 ## EXAMPLE :
 

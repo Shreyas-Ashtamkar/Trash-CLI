@@ -28,6 +28,7 @@ There is NO WARRANTY, to the extent permitted by law. "</font>
 trash --help
 </code>
 
+<br>
 
 <code class = "bg-gray-dark">
 trash --add file1.xyz file2.xyz file3.png ...

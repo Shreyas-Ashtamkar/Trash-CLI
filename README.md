@@ -11,7 +11,9 @@ There is NO WARRANTY, to the extent permitted by law. "</font>
 `USAGE   : trash <options> [<fileName1>,<fileName1>,<fileName1>]`
 
 
-#### Options Available :
+## Options Available :
+
+
 | Short |     Options       |                Description                                   |
 | ----- | ----------------- | ------------------------------------------------------------ |
 | `-v`  |   `--version`     |  Display Version Information of Command<br>                  |

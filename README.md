@@ -24,11 +24,11 @@ There is NO WARRANTY, to the extent permitted by law. "</font>
 ## EXAMPLE :
 
 
-```shell
+<code class="bg-gray-dark">
 trash --help
-```
+</code>
 
 
-```shell
+<code class = "bg-gray-dark">
 trash --add file1.xyz file2.xyz file3.png ...
-```
+</code>

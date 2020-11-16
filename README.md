@@ -18,8 +18,8 @@ There is NO WARRANTY, to the extent permitted by law. "</font>
 | `-h`  |   `--help`        |  Display this HELP message.<br>                              |
 | `-a`  |   `--add`         |  Add Files to the Trash<br>                                  |
 | `-s`  |   `--show`        |  Show all the files and folders, currently in trash.<br>     |
-| `  `  |   `--restore`     |  Restore some files from the Trash.<br>                      |
-| `  `  |   `--restore-all` |  Restore ALL the files and folders currently in trash.<br>   |
+|       |   `--restore`     |  Restore some files from the Trash.<br>                      |
+|       |   `--restore-all` |  Restore ALL the files and folders currently in trash.<br>   |
 
 ## EXAMPLE :
 

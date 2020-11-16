@@ -24,9 +24,9 @@ USAGE   : trash \<options\> [\<fileName1\>,\<fileName1\>,\<fileName1\>]
 
 
 ## EXAMPLE :
-```bash
+```shell
 trash --help
 ```
-```bash
+```shell
 trash --add file1.xyz file2.xyz file3.png ...
 ```

@@ -24,12 +24,9 @@ There is NO WARRANTY, to the extent permitted by law. "</font>
 ## EXAMPLE :
 
 
-<div class="bg-gray-dark">
+```shell
 trash --help
-</div>
-
-<br>
-
-<div class = "bg-gray-dark">
+```
+```shell
 trash --add file1.xyz file2.xyz file3.png ...
-</div>
+```

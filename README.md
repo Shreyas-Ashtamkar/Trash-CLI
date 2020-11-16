@@ -9,7 +9,7 @@ There is NO WARRANTY, to the extent permitted by law.
 ## USAGE
 
 
-`USAGE   : trash \<options\> [\<fileName1\>,\<fileName1\>,\<fileName1\>]`
+`USAGE   : trash <options> [<fileName1>,<fileName1>,<fileName1>]`
 
 
 #### Options Available :

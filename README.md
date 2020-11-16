@@ -1,14 +1,15 @@
 
-#Native Trash CLI. 
-####Version 1.0
+# Native Trash CLI. 
+#### Version 1.0
 
 > This is free software; you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
 ---
-##USAGE
-><b>USAGE   : trash <options> [<fileName1>,<fileName1>,<fileName1>]</b>
+## USAGE
+USAGE   : trash \<options\> [\<fileName1\>,\<fileName1\>,\<fileName1\>]
 ---
-<b>Options Available : </b>
+<b> Options Available : </b>
+
 `-v    --version`       Display Version Information of Command
 `-h    --help`          Display this HELP message.
 `-a    --add`           Add Files to the Trash
@@ -16,7 +17,7 @@ There is NO WARRANTY, to the extent permitted by law.
 `      --restore`       Restore some files from the Trash.
 `      --restore-all`   Restore ALL the files and folders currently in trash.
 ---
-##EXAMPLE :
+## EXAMPLE :
 >```
 	trash --help
 ```

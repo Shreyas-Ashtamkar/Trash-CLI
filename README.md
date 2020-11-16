@@ -1,8 +1,8 @@
 
 # Native Trash CLI - V1.0
 
-<font face="Times New Roman" >" This is free software; you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law. "</font>
+This is free software; you are free to change and redistribute it.<br/>
+There is NO WARRANTY, to the extent permitted by law.
 
 
 ## USAGE

@@ -4,7 +4,8 @@
 
 > This is free software; you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
----
+
+
 ## USAGE
 
 
@@ -20,13 +21,14 @@ USAGE   : trash \<options\> [\<fileName1\>,\<fileName1\>,\<fileName1\>]
 `      --restore`       Restore some files from the Trash.
 `      --restore-all`   Restore ALL the files and folders currently in trash.
 
----
-
-
 ## EXAMPLE :
+
+
 ```shell
 trash --help
 ```
+
+
 ```shell
 trash --add file1.xyz file2.xyz file3.png ...
 ```

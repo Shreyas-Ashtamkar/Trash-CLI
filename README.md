@@ -1,5 +1,4 @@
-
-# Native Trash CLI - V1.0
+# Trash-it - V1.0
 
 This is free software; you are free to change and redistribute it.<br/>
 There is NO WARRANTY, to the extent permitted by law.

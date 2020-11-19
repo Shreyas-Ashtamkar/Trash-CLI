@@ -1,58 +1,41 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
-long_description = """
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
-# Native Trash CLI - V1.0
+with open('requirements.txt') as f:
+    requirements = f.readlines()
 
-This is free software; you are free to change and redistribute it.<br/>
-There is NO WARRANTY, to the extent permitted by law.
-
-
-## USAGE
-
-
-`USAGE   : trash <options> [<fileName1>,<fileName1>,<fileName1>]`
-
-
-## Options Available :
-
-
-| Short |     Options       |                Description                                   |
-| ----- | ----------------- | ------------------------------------------------------------ |
-| `-v`  |   `--version`     |  Display Version Information of Command<br>                  |
-| `-h`  |   `--help`        |  Display this HELP message.<br>                              |
-| `-a`  |   `--add`         |  Add Files to the Trash<br>                                  |
-| `-s`  |   `--show`        |  Show all the files and folders, currently in trash.<br>     |
-|       |   `--restore`     |  Restore some files from the Trash.<br>                      |
-|       |   `--restore-all` |  Restore ALL the files and folders currently in trash.<br>   |
-
-## EXAMPLE :
-
-
-```shell
-trash --help
-```
-```shell
-trash --add file1.xyz file2.xyz file3.png ...
-```
-
-"""
 setup(
-	name='Trash-CLI',
+	name='trash-it',
 	version='0.1.0',
+	license='MIT',
+	
 	description='A Python Built Package for Sendign Files to Trash.',
-	py_modules=[],
-	package_dir={'':'src'},
+	long_description=long_description,
+    long_description_content_type="text/markdown",
+    
     author="Shreyas Ashtamkar",
     author_email="shreyu@programmer.net",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
-    packages=find_packages(),
+    url="https://github.com/Shreyas-Ashtamkar/Trash-CLI",
+
     classifiers=[
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        "Operating System :: Posix :: Linux",
     ],
-    python_requires='>=3.6',
+
+	python_requires='>=3.6',
+    install_requires=requirements,
+
+    packages=find_packages(),
+    entry_points={
+		'console_scripts': ['trash=trashit.command_line:main'],
+  	},
+
+  	include_package_data=True,
+  	zip_safe=False
 )

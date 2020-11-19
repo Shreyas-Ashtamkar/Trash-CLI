@@ -1,4 +1,3 @@
-#!/usr/bin/python
 from os import system, getcwd, listdir
 from os.path import exists
 from sys import argv

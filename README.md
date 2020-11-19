@@ -1,8 +1,11 @@
 # Trash-it - V1.0
 
-This is free software; you are free to change and redistribute it.<br/>
-There is NO WARRANTY, to the extent permitted by law.
+A Simple, command line utility to safely put the files/folders to the bin. 
+(A Safer way than rm command. )
 
+Have you ever deleted the wrong files by `rm` which were not backed up ? Have you felt that Panic ? That eagerness to bring back the files that have been lost ? 
+
+If yes, or no, anyways, I have a tool, which can be verry usefull to you. (*can*)
 
 ## USAGE
 
@@ -31,3 +34,7 @@ trash --help
 ```shell
 trash --add file1.xyz file2.xyz file3.png ...
 ```
+## NOTE : 
+
+This is free software; you are free to change and redistribute it.<br/>
+There is NO WARRANTY, to the extent permitted by law.

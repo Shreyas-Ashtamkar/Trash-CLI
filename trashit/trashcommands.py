@@ -1,17 +1,8 @@
-#!/usr/bin/python3
 from os import system
 import sys
-from systemcommands import Message, move, parseArguments, pwd, checkArgs, currentTime, writeToFile, listdir, exists
+from .trashlib import Message, move, parseArguments, pwd, checkArgs, currentTime, writeToFile, listdir, exists
 
-"""
-The Format of info File
-
-[Trash Info]
-Path=/home/ashtamkar/test%201.xyz
-DeletionDate=2020-11-13T20:35:21
-
-"""
-def main():
+def trash():
     TRASH_INFO="/home/ashtamkar/.local/share/Trash/info"
     TRASH_FILES="/home/ashtamkar/.local/share/Trash/files"
 
@@ -20,8 +11,9 @@ def main():
 
     if not argsCorrect:
         print(f"{data} \n\n USAGE: \n\ttrash --add <filename>\n\ttrash --restore <filename>\n\ttrash --show")
+        exit(1)
 
-    version = lambda *args: print("Native Trash CLI. \nVersion 1.0\n\nThis is free software; you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.")
+    version = lambda *args: print("Trash-It. \nVersion 1.0\n\nThis is free software; you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.")
 
 
     def add(fileName):
@@ -157,6 +149,3 @@ def main():
             command(file)
     else:
         command(files)
-
-if __name__=='__main__':
-    main()

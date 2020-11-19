@@ -1,4 +1,4 @@
-# Trash-it - V1.0
+# Trash-it - V1.5.0
 
 A Simple, command line utility to safely put the files/folders to the bin. 
 (A Safer way than rm command. )

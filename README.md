@@ -7,6 +7,12 @@ Have you ever deleted the wrong files by `rm` which were not backed up ? Have yo
 
 If yes, or no, anyways, I have a tool, which can be verry usefull to you. (*can*)
 
+## INSTALLATION
+
+```shell
+pip install trashit
+```
+
 ## USAGE
 
 
